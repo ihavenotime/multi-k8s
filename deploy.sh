@@ -1,5 +1,5 @@
 docker build -t not1me/multi-client:latest -t not1me/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t not1me/multi-server:latest -t not1me/multi-server:$SHA -f ./multi-server/Dockerfile ./server
+docker build -t not1me/multi-server:latest -t not1me/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t not1me/multi-worker:latest -t not1me/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push not1me/multi-client:latest
