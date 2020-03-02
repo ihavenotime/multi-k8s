@@ -4,7 +4,7 @@ metadata:
     name: notime-page-tls
 spec:
     secretName: notime-page
-    issueRef:
+    issuerRef:
         name: letsencrypt-prod
         kind: ClusterIssuer
     commonName: notime.page
