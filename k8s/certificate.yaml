@@ -13,8 +13,8 @@ spec:
         - www.notime.page
     acme:
         config:
-            - http01:
-                ingressClass: nginx
-            domains:
-                - notime.page
-                - www.notime.page
+            -   http01:
+                    ingressClass: nginx
+                domains:
+                    - notime.page
+                    - www.notime.page
